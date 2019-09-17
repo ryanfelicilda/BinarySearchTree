@@ -1,0 +1,7 @@
+Z:\DevCodeCamp\Assignments\BinarySearchTree\BinarySearchTree\BinarySearchTree\bin\Debug\BinarySearchTree.exe.config
+Z:\DevCodeCamp\Assignments\BinarySearchTree\BinarySearchTree\BinarySearchTree\bin\Debug\BinarySearchTree.exe
+Z:\DevCodeCamp\Assignments\BinarySearchTree\BinarySearchTree\BinarySearchTree\bin\Debug\BinarySearchTree.pdb
+Z:\DevCodeCamp\Assignments\BinarySearchTree\BinarySearchTree\BinarySearchTree\obj\Debug\BinarySearchTree.csprojAssemblyReference.cache
+Z:\DevCodeCamp\Assignments\BinarySearchTree\BinarySearchTree\BinarySearchTree\obj\Debug\BinarySearchTree.csproj.CoreCompileInputs.cache
+Z:\DevCodeCamp\Assignments\BinarySearchTree\BinarySearchTree\BinarySearchTree\obj\Debug\BinarySearchTree.exe
+Z:\DevCodeCamp\Assignments\BinarySearchTree\BinarySearchTree\BinarySearchTree\obj\Debug\BinarySearchTree.pdb

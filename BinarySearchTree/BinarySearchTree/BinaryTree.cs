@@ -15,12 +15,30 @@ namespace BinarySearchTree
         }
         public void Add(int data)
         {
+            Node node = new Node(data);
             if(root == null)
             {
                 root = new Node(data);
             }
             else
             {
+                Node current = root;
+                while (true)
+                {
+                    if(node.data <= current.data)
+                    {
+                        if(current.left == null)
+                        {
+                            current.left = new Node(data);
+                            break;
+                        }
+                        else
+                        {
+                            current = current.left;
+                        }
+                    }
+
+                }
             }
         }
     }
