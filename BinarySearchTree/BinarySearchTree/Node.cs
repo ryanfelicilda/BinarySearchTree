@@ -11,5 +11,11 @@ namespace BinarySearchTree
         public Node left;
         public Node right;
         public int data;
+        public Node(int value)
+        {
+            data = value;
+            right = null;
+            left = null;
+        }
     }
 }

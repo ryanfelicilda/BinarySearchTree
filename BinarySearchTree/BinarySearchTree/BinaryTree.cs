@@ -13,9 +13,15 @@ namespace BinarySearchTree
         {
             root = null;
         }
-        public void Add(int userInput)
+        public void Add(int data)
         {
-
+            if(root == null)
+            {
+                root = new Node(data);
+            }
+            else
+            {
+            }
         }
     }
 }
