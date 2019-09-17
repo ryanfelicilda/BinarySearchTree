@@ -29,12 +29,24 @@ namespace BinarySearchTree
                     {
                         if(current.left == null)
                         {
-                            current.left = new Node(data);
+                            current.left = node;
                             return;
                         }
                         else
                         {
                             current = current.left;
+                        }
+                    }
+                    if (node.data > current.data)
+                    {
+                        if (current.right == null)
+                        {
+                            current.right = node;
+                            return;
+                        }
+                        else
+                        {
+                            current = current.right;
                         }
                     }
                 }
