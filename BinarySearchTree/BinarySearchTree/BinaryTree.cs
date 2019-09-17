@@ -8,5 +8,14 @@ namespace BinarySearchTree
 {
     class BinaryTree
     {
+        public Node root;
+        public BinaryTree()
+        {
+            root = null;
+        }
+        public void Add(int userInput)
+        {
+
+        }
     }
 }
