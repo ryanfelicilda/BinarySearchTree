@@ -30,14 +30,13 @@ namespace BinarySearchTree
                         if(current.left == null)
                         {
                             current.left = new Node(data);
-                            break;
+                            return;
                         }
                         else
                         {
                             current = current.left;
                         }
                     }
-
                 }
             }
         }
