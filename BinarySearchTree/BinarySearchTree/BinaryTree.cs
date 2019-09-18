@@ -63,6 +63,16 @@ namespace BinarySearchTree
                     {
                         current = current.left;
                         Console.WriteLine("test left");
+                        if (current.data == input)
+                        {
+                            Console.WriteLine("Item found");
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("test item not found");
+                        break;
                     }
                 }
             }
