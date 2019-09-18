@@ -52,5 +52,13 @@ namespace BinarySearchTree
                 }
             }
         }
+        public void Search(Node node, int input)
+        {
+            if (node == null)
+            {
+
+            }
+        }
     }
+
 }
