@@ -52,11 +52,38 @@ namespace BinarySearchTree
                 }
             }
         }
-        public void Search(Node node, int input)
+        public void Search(int input)
         {
-            if (node == null)
+            Node current = root;
+            while(current != null)
             {
 
+            }
+
+            //while (true)
+            //{
+            //    if (root.data != input)
+            //    {
+            //        Console.WriteLine("Unable to locate item or item does not exist.");
+            //        return;
+            //    }
+            //    else if(root.data == input)
+            //    {
+            //        Console.WriteLine("Item found.");
+            //        return;
+            //    }
+                //else if(root.data <= input)
+                //{
+                //    root.left = root;
+                //    Console.WriteLine("aaaa");
+                //    return;
+                //}
+                //else if (root.data > input)
+                //{
+                //    root.right = root;
+                //    Console.WriteLine("bbbb");
+                //    return;
+                //}
             }
         }
     }
