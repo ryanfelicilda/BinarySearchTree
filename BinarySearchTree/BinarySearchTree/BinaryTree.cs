@@ -30,7 +30,7 @@ namespace BinarySearchTree
                         if(current.left == null)
                         {
                             current.left = node;
-                            return;
+                            break;
                         }
                         else
                         {
@@ -42,7 +42,7 @@ namespace BinarySearchTree
                         if (current.right == null)
                         {
                             current.right = node;
-                            return;
+                            break;
                         }
                         else
                         {
@@ -62,16 +62,15 @@ namespace BinarySearchTree
                     if(current.left != null)
                     {
                         current = current.left;
-                        Console.WriteLine("test left");
                         if (current.data == input)
                         {
-                            Console.WriteLine("test item found");
+                            Console.WriteLine($"{input} has been found.");
                             break;
                         }
                     }
                     else
                     {
-                        Console.WriteLine("test item not found");
+                        Console.WriteLine($"{input} not found or does not exist.");
                         break;
                     }
                 }
@@ -80,16 +79,15 @@ namespace BinarySearchTree
                     if (current.right != null)
                     {
                         current = current.right;
-                        Console.WriteLine("test right");
                         if (current.data == input)
                         {
-                            Console.WriteLine("test item found");
+                            Console.WriteLine($"{input} has been found.");
                             break;
                         }
                     }
                     else
                     {
-                        Console.WriteLine("test item not found");
+                        Console.WriteLine($"{input} not found or does not exist.");
                         break;
                     }
                 }
