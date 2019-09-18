@@ -57,7 +57,7 @@ namespace BinarySearchTree
             Node current = root;
             while(current != null)
             {
-                if(input < current.data)
+                if(input <= current.data)
                 {
                     if(current.left != null)
                     {
@@ -65,7 +65,25 @@ namespace BinarySearchTree
                         Console.WriteLine("test left");
                         if (current.data == input)
                         {
-                            Console.WriteLine("Item found");
+                            Console.WriteLine("test item found");
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("test item not found");
+                        break;
+                    }
+                }
+                if (input > current.data)
+                {
+                    if (current.right != null)
+                    {
+                        current = current.right;
+                        Console.WriteLine("test right");
+                        if (current.data == input)
+                        {
+                            Console.WriteLine("test item found");
                             break;
                         }
                     }
@@ -77,31 +95,6 @@ namespace BinarySearchTree
                 }
             }
 
-            //while (true)
-            //{
-            //    if (root.data != input)
-            //    {
-            //        Console.WriteLine("Unable to locate item or item does not exist.");
-            //        return;
-            //    }
-            //    else if (root.data == input)
-            //    {
-            //        Console.WriteLine("Item found.");
-            //        return;
-            //    }
-            //    else if (root.data <= input)
-            //    {
-            //        root.left = root;
-            //        Console.WriteLine("aaaa");
-            //        return;
-            //    }
-            //    else if (root.data > input)
-            //    {
-            //        root.right = root;
-            //        Console.WriteLine("bbbb");
-            //        return;
-            //    }
-            //}
         }
     }
 
