@@ -57,7 +57,14 @@ namespace BinarySearchTree
             Node current = root;
             while(current != null)
             {
-
+                if(input < current.data)
+                {
+                    if(current.left != null)
+                    {
+                        current = current.left;
+                        Console.WriteLine("test left");
+                    }
+                }
             }
 
             //while (true)
@@ -67,24 +74,24 @@ namespace BinarySearchTree
             //        Console.WriteLine("Unable to locate item or item does not exist.");
             //        return;
             //    }
-            //    else if(root.data == input)
+            //    else if (root.data == input)
             //    {
             //        Console.WriteLine("Item found.");
             //        return;
             //    }
-                //else if(root.data <= input)
-                //{
-                //    root.left = root;
-                //    Console.WriteLine("aaaa");
-                //    return;
-                //}
-                //else if (root.data > input)
-                //{
-                //    root.right = root;
-                //    Console.WriteLine("bbbb");
-                //    return;
-                //}
-            }
+            //    else if (root.data <= input)
+            //    {
+            //        root.left = root;
+            //        Console.WriteLine("aaaa");
+            //        return;
+            //    }
+            //    else if (root.data > input)
+            //    {
+            //        root.right = root;
+            //        Console.WriteLine("bbbb");
+            //        return;
+            //    }
+            //}
         }
     }
 
